@@ -1,0 +1,110 @@
+    html{
+        height: 1000px; border: 1px solid black;
+        background-color: rgb(32, 33, 45);
+        color: white;
+        background: linear-gradient(#05273f 60%, #fff 10%);
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header1 span{
+        margin: 10px;
+    }
+    .header2{
+        display: flex;
+    }
+    .search{
+        color: white;
+        font-size: 13px;
+    }
+    .img{
+        max-width: 30px;
+        max-height: 30px;
+    }
+    button{
+        background-color: rgb(32, 33, 45);
+    }
+    .sign{
+        margin: 10px;
+        color: white;
+
+    }
+
+    .main1{
+        position: absolute;
+        top: 170px;
+        left: 250px;
+    }
+
+    .title{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    .info{
+        color: gray;
+        font-size: 20px;
+    }
+
+    .main2{
+        background-color: white;
+        color: black;
+        width: 350px;
+        height: 400px;
+        padding-left: 3mm;
+        padding-right: 3mm;
+        padding-top: 3mm;
+        padding-bottom: 3mm;
+
+        position: absolute;
+        top: 80px;
+        right: 250px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 6px 6px 6px 6px;
+
+    }
+
+    .box{
+        background-color: rgb(205, 220, 244);
+        bottom: 50px;
+        height: 30px;
+        border-radius: 5px 5px 5px 5px;
+        border-color: rgb(235, 232, 232);
+
+    }
+    .box1{
+        height: 30px;
+        border-radius: 5px 5px 5px 5px;
+        border-color: rgb(235, 232, 232);
+    }
+
+    .write{
+        font-size: 10.5px;
+    }
+
+    .blue{
+        color: blue;
+    }
+
+    .go{
+        display: flex;
+        box-sizing: border-box;
+        background: rgb(72, 195, 72);
+        width: 350px;
+        height: 70px;
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        border-radius: 6px 6px 6px 6px;
+
+    }
+
+    .write1{
+        color: white;
+        height: 26px;
+
+    }
